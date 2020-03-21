@@ -11,3 +11,7 @@ HuskyMaps is based on a graph implementation and the graph contains enough data 
   Some have names (e.g. "Safeway") and others are just spots on the road. 
   HuskyMaps will automatically find a valid node in the graph nearest to where
   the user double-clicked.
+
+The shortest route is computed via the A* search algorithm. Given a cheap heuristic
+  function, the A* algorithm finds the shortest path faster than Dijkstra's
+  algorithm. 
