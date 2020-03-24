@@ -15,3 +15,8 @@ HuskyMaps is based on a graph implementation and the graph contains enough data 
 The shortest route is computed via the A* search algorithm. Given a cheap heuristic
   function, the A* algorithm finds the shortest path faster than Dijkstra's
   algorithm. 
+
+# Motivation
+This was a school project intended to expose students to coding projects that nmore accurately reflected those of the real world. Rather than building something from scratch, this project starts with a large code base that was already written by someone else. As a result, one needs to spend time getting to know the provided code before working on the required parts of the project.
+
+While there already exist a multitude of pathfinding programs (Google Maps, Apple Maps, etc.), HuskyMaps serves as practice for me to simulate working on an enterprise-level application, such as Google Maps. 
